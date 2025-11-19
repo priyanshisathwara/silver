@@ -66,8 +66,8 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <a href="tel:+919999999999" className="text-gray-400 hover:text-white transition text-sm">
-                  +91 99999 99999
+                <a href="tel:+918000985055" className="text-gray-400 hover:text-white transition text-sm">
+                  +91 8000985055
                 </a>
               </div>
             </div>
@@ -80,15 +80,19 @@ export default function Footer() {
               © 2024 Silver Profile Pvt Ltd. All rights reserved.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition">
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition">
+
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition">
+
+              <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer" className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition">
                 <Linkedin className="w-5 h-5" />
               </a>
+
+
             </div>
           </div>
         </div>

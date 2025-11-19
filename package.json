@@ -1,8 +1,20 @@
 {
-  "name": "vite-react-typescript-starter",
-  "private": true,
+  "name": "silver",
   "version": "0.0.0",
+  "private": true,
+  "description": "silver",
+  "homepage": "https://github.com/priyanshisathwara/silver#readme",
+  "bugs": {
+    "url": "https://github.com/priyanshisathwara/silver/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyanshisathwara/silver.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

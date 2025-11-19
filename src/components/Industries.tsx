@@ -1,14 +1,17 @@
-import { Car, Cpu, Pill, Plane, FlaskConical, Flame, Tractor, Factory } from 'lucide-react';
+import { Car, Truck, Pill, Plane, FlaskConical, Flame, Tractor, Factory, Box } from 'lucide-react';
 
 export default function Industries() {
   const industries = [
-    { icon: Car, name: 'Automotive', color: 'blue' },
-    { icon: Cpu, name: 'Electronics', color: 'blue' },
-    { icon: Pill, name: 'Pharmaceutical', color: 'blue' },
-    { icon: Plane, name: 'Aerospace', color: 'blue' },
-    { icon: FlaskConical, name: 'Lab Equipment', color: 'blue' },
-    { icon: Flame, name: 'Fire Safety', color: 'blue' },
+    { icon: Plane, name: 'Aerospace Products', color: 'blue' },
+    { icon: Pill, name: 'Pharma Sector', color: 'blue' },
+    { icon: FlaskConical, name: 'Lab Equipments', color: 'blue' },
+    { icon: Flame, name: 'Fire Safety Equipments', color: 'blue' },
+    { icon: Car, name: 'Automobile Car Parts Manufacturing', color: 'blue' },
     { icon: Tractor, name: 'Agriculture', color: 'blue' },
+    { icon: Box, name: 'Cold Storage', color: 'blue' },
+    { icon: Box, name: 'Food Processing', color: 'blue' },
+    { icon: Truck, name: 'Logistics', color: 'blue' }, // if Truck icon available
+    { icon: Box, name: 'Retail', color: 'blue' },
     { icon: Factory, name: 'Industrial Manufacturing', color: 'blue' }
   ];
 
