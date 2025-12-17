@@ -8,7 +8,7 @@ export default function Navigation() {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
-      setIsOpen(false);
+      setIsOpen(false); // Close mobile menu after click
     }
   };
 
@@ -19,6 +19,8 @@ export default function Navigation() {
       document.body.style.overflow = 'auto';
     };
   }, [isOpen]);
+
+  const menuItems = ['home', 'about', 'services', 'machines', 'industries', 'contact'];
 
   return (
     <nav className="fixed top-0 w-full bg-white shadow-md z-50">
@@ -43,7 +45,7 @@ export default function Navigation() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
-            {['home', 'about', 'services', 'machines', 'industries', 'contact'].map((item) => (
+            {menuItems.map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
@@ -67,39 +69,26 @@ export default function Navigation() {
 
       {/* Mobile Menu */}
       <div
-        className={`
-          md:hidden
-          fixed
-          top-16
-          left-0
-          w-full
-          bg-white
-          border-t
-          shadow-lg
-          transform
-          transition-all
-          duration-300
-          ${isOpen ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}
-        `}
+        className={`md:hidden fixed top-0 left-0 w-full h-screen bg-white z-40 transform transition-transform duration-300 ${
+          isOpen ? 'translate-y-0' : '-translate-y-full'
+        }`}
       >
-        <div className="px-4 py-4 space-y-3">
-          {['home', 'about', 'services', 'machines', 'industries', 'contact'].map((item) => (
+        {/* Close Button at top-right inside mobile menu */}
+        <div className="flex justify-end p-4">
+          <button
+            onClick={() => setIsOpen(false)}
+            className="p-2 rounded-lg text-gray-700 hover:bg-gray-100 transition"
+          >
+            <X className="w-6 h-6" />
+          </button>
+        </div>
+
+        <div className="flex flex-col items-center justify-center mt-10 space-y-6">
+          {menuItems.map((item) => (
             <button
               key={item}
               onClick={() => scrollToSection(item)}
-              className="
-                block
-                w-full
-                text-left
-                py-3
-                px-2
-                text-gray-700
-                font-medium
-                rounded-lg
-                hover:bg-blue-50
-                hover:text-blue-600
-                transition
-              "
+              className="text-2xl font-medium text-gray-700 hover:text-blue-600 transition"
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}
             </button>
