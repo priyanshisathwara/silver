@@ -35,7 +35,7 @@ export default function About() {
             </p>
 
             {/* Leadership */}
-            <div className="mb-6">
+            {/* <div className="mb-6">
               <h4 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
                 Leadership Team
               </h4>
@@ -44,7 +44,7 @@ export default function About() {
                 <li><strong>Designation:</strong> Director</li>
                 <li><strong>Team Members:</strong> JAGDISHBHAI, Rutvik Patel</li>
               </ul>
-            </div>
+            </div> */}
 
             {/* Contact */}
             <div className="mb-6">

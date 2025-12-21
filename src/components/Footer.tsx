@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white pt-12 sm:pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* TOP GRID */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12 text-center sm:text-left">
 
@@ -64,11 +64,14 @@ export default function Footer() {
             <h4 className="font-bold text-lg mb-4">Contact Info</h4>
             <div className="space-y-3 text-sm">
               <div className="flex items-start justify-center sm:justify-start gap-3">
-                <MapPin className="w-5 h-5 text-blue-400 mt-1" />
+                <MapPin className="w-5 h-5 text-blue-400 mt-1 shrink-0" />
                 <p className="text-gray-400 leading-relaxed">
-                  194/6, Dantali Industrial Estate, Gota-Vadsar Road, Kalol, Gandhinagar - 382721
+                  194/6, Dantali Industrial Estate, Opp. Beleview Farm,
+                  Gota-Vadsar Air Force Road, Village: Dantali,
+                  Ta: Kalol, Dist: Gandhinagar, Gujarat 382722
                 </p>
               </div>
+
               <div className="flex items-center justify-center sm:justify-start gap-3">
                 <Mail className="w-5 h-5 text-blue-400" />
                 <a href="mailto:silvercool1994@gmail.com" className="text-gray-400 hover:text-white transition">

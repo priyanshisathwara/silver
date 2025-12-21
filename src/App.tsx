@@ -20,8 +20,8 @@ function App() {
       <VisionMission />
       <CoreValues />
       <Stats />
-      <Machines />
       <Services />
+      <Machines />
       <Industries />
       <WhyChooseUs />
       <Contact />

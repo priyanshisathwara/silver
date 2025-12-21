@@ -50,12 +50,15 @@ export default function Contact() {
             </h3>
 
             <div className="space-y-6">
-              <div className="flex gap-4">
-                <MapPin className="w-6 h-6 text-blue-600" />
-                <p className="text-gray-600 text-sm sm:text-base">
-                  194/6, Dantali Industrial Estate, Kalol, Gandhinagar – 382721
+              <div className="flex gap-4 items-start">
+                <MapPin className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
+                <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
+                  194/6, Dantali Industrial Estate, Opp. Beleview Farm,
+                  Gota-Vadsar Air Force Road, Village: Dantali,
+                  Ta: Kalol, Dist: Gandhinagar, Gujarat 382722
                 </p>
               </div>
+
 
               <div className="flex gap-4">
                 <Mail className="w-6 h-6 text-blue-600" />
@@ -99,8 +102,8 @@ export default function Contact() {
                         field === "email"
                           ? "email"
                           : field === "phone"
-                          ? "tel"
-                          : "text"
+                            ? "tel"
+                            : "text"
                       }
                       value={formData[field]}
                       onChange={(e) =>
