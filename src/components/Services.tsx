@@ -37,6 +37,18 @@ export default function Services() {
       title: 'Raw Material Supply',
       description:
         'Access to quality raw materials including PP, HDPE, LDPE, ABS, Nylon, PC, and specialized engineering plastics.'
+    },
+    {
+      icon: Box,
+      title: 'Runner Compression Molding',
+      description:
+        'Along with plastic injection molding, We also offer Runner Compression Molding to shape runner components, Which can later be integrated with injection-molded plastic component.'
+    },
+    {
+      icon: Box,
+      title: 'Mold Designing',
+      description:
+        'Our Mold design services created customized molds according to the requirements using advanced software and tools.'
     }
   ];
 
