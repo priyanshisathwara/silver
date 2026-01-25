@@ -18,7 +18,7 @@ export default function Footer() {
           {/* COMPANY INFO */}
           <div>
             <div className="flex items-center justify-center sm:justify-start space-x-3 mb-4">
-              <img src='src/assets/logo-2.png' style={{marginRight: '10px', height: '50px'}}></img>
+              <img src='assets/logo-2.png' style={{marginRight: '10px', height: '50px'}}></img>
               <div>
                 <h3 className="text-xl font-bold">SILVER PROFILE</h3>
                 <p className="text-sm text-gray-400">PVT LTD</p>

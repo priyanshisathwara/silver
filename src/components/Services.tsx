@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 export default function Services() {
   const services = [
     {
-      icon: 'src/assets/plastic-molding.png',
+      icon: 'assets/plastic-molding.png',
       title: 'Plastic Molding',
       description:
         'High-precision plastic injection molding services with capacities ranging from 125 to 650 tons for diverse product requirements.',
       url: '/plastic-molding'
     },
     {
-      icon: 'src/assets/allied-service.png',
+      icon: 'assets/allied-service.png',
       title: 'Allied Service',
       description:
         'We offer comprehensive end to end solutions beyond just injection molding.',

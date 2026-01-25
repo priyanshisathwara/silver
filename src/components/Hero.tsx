@@ -22,7 +22,7 @@ export default function Hero() {
       <div // /Users/jaydeepsathwara/Downloads/Silver Profile company  images/Main Front Photo/Gemini_Generated_Image_nkfmsznkfmsznkfm.png
         className="
           absolute inset-0
-          bg-[url('src/assets/hero-bg.png')]
+          bg-[url('assets/hero-bg.png')]
           bg-cover bg-center
           opacity-20
         "

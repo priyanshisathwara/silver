@@ -8,7 +8,6 @@ import Industries from '../components/Industries';
 import WhyChooseUs from '../components/WhyChooseUs';
 import Stats from '../components/Stats';
 import Contact from '../components/Contact';
-import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
 
 function Home() {
@@ -25,7 +24,6 @@ function Home() {
       <Industries />
       <WhyChooseUs />
       <Contact />
-      <Footer />
     </div>
   );
 }

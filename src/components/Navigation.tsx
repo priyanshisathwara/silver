@@ -47,7 +47,7 @@ export default function Navigation() {
             onClick={() => scrollToSection('home')}
           >
             {/* <Factory className="w-7 h-7 sm:w-8 sm:h-8 text-blue-600" strokeWidth={2.5} /> */}
-            <img src='src/assets/logo-2.png' style={{ marginRight: '10px', height: '50px' }}></img>
+            <img src='assets/logo-2.png' style={{ marginRight: '10px', height: '50px' }}></img>
             <div style={{ marginLeft: '0px' }}>
               <h1 className="text-lg sm:text-xl font-bold text-gray-900 leading-none">
                 SILVER PROFILE

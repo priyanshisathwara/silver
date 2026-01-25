@@ -90,7 +90,7 @@ export default function About() {
             {/* Features */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
               <div className="text-center p-4 bg-blue-50 rounded-lg">
-                <img src="src/assets/ISO 9001-2015 logo.jpg"></img>
+                <img src="assets/ISO 9001-2015 logo.jpg"></img>
                 <p className="font-semibold text-gray-900 text-sm sm:text-base">
                   ISO Certified
                 </p>
