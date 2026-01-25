@@ -1,5 +1,6 @@
 import { Cog, Wrench, Package, Truck, Box } from 'lucide-react';
 import './Services.css';
+import { Link } from 'react-router-dom';
 
 export default function Services() {
   const services = [
@@ -105,6 +106,7 @@ export default function Services() {
                   {service.description}
                 </p>
 
+              <Link to={service.url}>
                 <div className="mt-auto pt-6">
                   <button className="service-btn">
                     <i className="service-animation"></i>
@@ -112,6 +114,7 @@ export default function Services() {
                     <i className="service-animation"></i>
                   </button>
                 </div>
+                </Link>
               </div>
             </div>
           ))}

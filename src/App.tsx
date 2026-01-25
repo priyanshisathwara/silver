@@ -3,6 +3,7 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import PlasticMolding from './pages/PlasticMolding';
+import AlliedServices from './pages/AlliedServices';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/plastic-molding" element={<PlasticMolding />} />
+        <Route path="/allied-service" element={<AlliedServices />} />
       </Routes>
 
       <Footer />
