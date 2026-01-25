@@ -1,0 +1,44 @@
+.vision-mission-section {
+  background: linear-gradient(135deg, #eff6ff, #ffffff);
+}
+
+/* 🔵 Soft animated blobs */
+.vm-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(0px);          /* ⬅ less blur */
+  opacity: 0.45;               /* ⬅ more visible */
+  animation: float 12s ease-in-out infinite; /* ⬅ faster */
+  will-change: transform;
+}
+
+/* Blob 1 */
+.vm-blob-1 {
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(circle, #60a5fa, #2563eb);
+  top: -140px;
+  left: -140px;
+}
+
+/* Blob 2 */
+.vm-blob-2 {
+  width: 360px;
+  height: 360px;
+  background: radial-gradient(circle, #93c5fd, #3b82f6);
+  bottom: -140px;
+  right: -140px;
+  animation-delay: 4s;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(70px, 50px) scale(1.05); /* ⬅ noticeable movement */
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}

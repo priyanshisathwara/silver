@@ -81,9 +81,19 @@ export default function Machines() {
 
         {/* Materials */}
         <div className="mt-10 sm:mt-12 bg-blue-50 border-l-4 border-blue-600 p-4 sm:p-6 rounded-r-lg">
-          <h4 className="font-bold text-gray-900 mb-2 text-base sm:text-lg">
+          <h4 className="font-bold text-gray-900 mb-2 text-base" style={{fontSize: '25px'}}>
             Materials We Process:
           </h4>
+          <div 
+          onClick={() => {
+      const link = document.createElement('a');
+      link.href = '/src/assets/Material Capability Sheet.pdf';
+      link.download = 'Materials-We-Process.pdf';
+      link.click();
+    }}
+    >
+            Download PDF
+          </div>
           <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
             PP, HDPE, LDPE, ABS, Nylon, PC (Polycarbonate), Delrin, FR Materials, and more
           </p>

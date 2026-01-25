@@ -33,8 +33,6 @@ export default function About() {
               SILVER PROFILE is committed to sustainability and utilizes eco-friendly
               materials and processes in all our projects.
             </p>
-
-             Leadership
             <div className="mb-6">
               <h4 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
                 Leadership Team
@@ -68,6 +66,8 @@ export default function About() {
                   silvercool1994@gmail.com
                 </a>
               </p>
+              <br />
+              <p>GST No. 24AACCS6230R1Z1</p>
             </div>
 
             {/* Tags */}
@@ -90,7 +90,7 @@ export default function About() {
             {/* Features */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
               <div className="text-center p-4 bg-blue-50 rounded-lg">
-                <Award className="w-10 h-10 sm:w-12 sm:h-12 text-blue-600 mx-auto mb-2" />
+                <img src="src/assets/ISO 9001-2015 logo.jpg"></img>
                 <p className="font-semibold text-gray-900 text-sm sm:text-base">
                   ISO Certified
                 </p>

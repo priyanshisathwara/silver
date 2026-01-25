@@ -41,7 +41,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12">
+        <div className="">
 
           {/* Contact Info */}
           <div className="bg-white p-6 sm:p-8 rounded-xl shadow-lg">
@@ -83,7 +83,7 @@ export default function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white p-6 sm:p-8 rounded-xl shadow-lg">
+          {/* <div className="bg-white p-6 sm:p-8 rounded-xl shadow-lg">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
               Send Us a Message
             </h3>
@@ -140,7 +140,7 @@ export default function Contact() {
                 <Send className="w-5 h-5" />
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

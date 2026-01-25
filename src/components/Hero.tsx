@@ -19,10 +19,10 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/40"></div>
 
       {/* Background Image */}
-      <div
+      <div // /Users/jaydeepsathwara/Downloads/Silver Profile company  images/Main Front Photo/Gemini_Generated_Image_nkfmsznkfmsznkfm.png
         className="
           absolute inset-0
-          bg-[url('https://images.pexels.com/photos/1078884/pexels-photo-1078884.jpeg')]
+          bg-[url('src/assets/hero-bg.png')]
           bg-cover bg-center
           opacity-20
         "

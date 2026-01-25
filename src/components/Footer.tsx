@@ -18,7 +18,7 @@ export default function Footer() {
           {/* COMPANY INFO */}
           <div>
             <div className="flex items-center justify-center sm:justify-start space-x-3 mb-4">
-              <Factory className="w-8 h-8 text-blue-400" strokeWidth={2.5} />
+              <img src='src/assets/logo-2.png' style={{marginRight: '10px', height: '50px'}}></img>
               <div>
                 <h3 className="text-xl font-bold">SILVER PROFILE</h3>
                 <p className="text-sm text-gray-400">PVT LTD</p>
@@ -84,6 +84,24 @@ export default function Footer() {
                   +91 8000985055
                 </a>
               </div>
+              <div className="flex items-center justify-center sm:justify-start gap-3">
+                <Phone className="w-5 h-5 text-blue-400" />
+                <a href="tel:+919714390395" className="text-gray-400 hover:text-white transition">
+                  +91 9714390395
+                </a>
+              </div>
+              <div className="flex items-center justify-center sm:justify-start gap-3">
+                <Phone className="w-5 h-5 text-blue-400" />
+                <a href="tel:+919909288726" className="text-gray-400 hover:text-white transition">
+                  +91 9909288726
+                </a>
+              </div>
+              <div className="flex items-center justify-center sm:justify-start gap-3">
+                <Phone className="w-5 h-5 text-blue-400" />
+                <a href="tel:+919825283817" className="text-gray-400 hover:text-white transition">
+                  +91 9825283817
+                </a>
+              </div>
             </div>
           </div>
 
@@ -96,7 +114,7 @@ export default function Footer() {
               © 2024 Silver Profile Pvt Ltd. All rights reserved.
             </p>
 
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               {[Facebook, Instagram, Linkedin].map((Icon, i) => (
                 <a
                   key={i}
@@ -108,7 +126,7 @@ export default function Footer() {
                   <Icon className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
 

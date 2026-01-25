@@ -1,30 +1,19 @@
-import Hero from './components/Hero';
-import About from './components/About';
-import VisionMission from './components/VisionMission';
-import CoreValues from './components/CoreValues';
-import Machines from './components/Machines';
-import Services from './components/Services';
-import Industries from './components/Industries';
-import WhyChooseUs from './components/WhyChooseUs';
-import Stats from './components/Stats';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import { Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import PlasticMolding from './pages/PlasticMolding';
 
 function App() {
   return (
     <div className="min-h-screen bg-white">
       <Navigation />
-      <Hero />
-      <About />
-      <VisionMission />
-      <CoreValues />
-      <Stats />
-      <Services />
-      <Machines />
-      <Industries />
-      <WhyChooseUs />
-      <Contact />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/plastic-molding" element={<PlasticMolding />} />
+      </Routes>
+
       <Footer />
     </div>
   );
