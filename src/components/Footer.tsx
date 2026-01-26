@@ -33,7 +33,7 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              {['home', 'about', 'services', 'machines', 'industries', 'contact'].map((item) => (
+              {['home', 'about', 'services', 'industries', 'contact'].map((item) => (
                 <li key={item}>
                   <button
                     onClick={() => scrollToSection(item)}
