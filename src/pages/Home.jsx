@@ -9,8 +9,24 @@ import WhyChooseUs from '../components/WhyChooseUs';
 import Stats from '../components/Stats';
 import Contact from '../components/Contact';
 import Navigation from '../components/Navigation';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 function Home() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.replace('#', '');
+      const element = document.getElementById(id);
+
+      setTimeout(() => {
+        element?.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+    }
+  }, [location]);
+
   return (
     <div className="min-h-screen bg-white">
       <Navigation />

@@ -2,7 +2,6 @@ export default function HeroSection({title1 = '', title2 = ''}) {
 
   return (
     <div
-      id="home"
       className="
         relative
         min-h-[50svh]
@@ -16,7 +15,7 @@ export default function HeroSection({title1 = '', title2 = ''}) {
       <div
         className="
           absolute inset-0
-          bg-[url('public/assets/hero-background.png')]
+          bg-[url('/assets/hero-background.png')]
           bg-cover bg-center
           opacity-20
         "

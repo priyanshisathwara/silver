@@ -5,7 +5,7 @@ import HeroSection from '../components/HeroSection';
 const AlliedServices = () => {
   return (
     <div>
-      <div className='' style={{marginTop: '120px'}}>
+      <div className='' style={{marginTop: '100px'}}>
         <HeroSection title1={'Complete Molding Solutions'} title2={'Design Through Delivery'} />
       <BackBtn />
         <b className='flex justify-center' style={{color: '#1515b8', fontSize: '30px'}} >End to End Solutions</b>

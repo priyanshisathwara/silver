@@ -11,7 +11,7 @@ export default function Stats() {
   return (
     <section className="py-14 sm:py-16 lg:py-20 bg-gradient-to-r from-blue-600 to-blue-800 relative overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 bg-[url('assets/main-gate.png')] bg-cover bg-center opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('/assets/main-gate.png')] bg-cover bg-center opacity-10"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">

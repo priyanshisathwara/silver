@@ -44,9 +44,9 @@ export default function Services() {
     // },
     // {
     //   icon: Box,
-    //   title: 'Runner Compression Molding',
+    //   title: 'Rubber Compression Molding',
     //   description:
-    //     'Along with plastic injection molding, We also offer Runner Compression Molding to shape runner components, Which can later be integrated with injection-molded plastic component.'
+    //     'Along with plastic injection molding, We also offer Rubber Compression Molding to shape rubber components, Which can later be integrated with injection-molded plastic component.'
     // },
     // {
     //   icon: Box,

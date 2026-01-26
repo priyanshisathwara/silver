@@ -18,11 +18,10 @@ export default function Hero() {
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/40"></div>
 
-      {/* Background Image */}
-      <div // /Users/jaydeepsathwara/Downloads/Silver Profile company  images/Main Front Photo/Gemini_Generated_Image_nkfmsznkfmsznkfm.png
+      <div
         className="
           absolute inset-0
-          bg-[url('assets/hero-background.png')]
+          bg-[url('/assets/hero-background.png')]
           bg-cover bg-center
           opacity-20
         "

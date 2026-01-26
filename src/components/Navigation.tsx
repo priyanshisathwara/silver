@@ -1,14 +1,21 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, MapPin, Mail, Phone } from 'lucide-react';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const location = useLocation();
+  const navigate = useNavigate();
+
   const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-      setIsOpen(false); // Close mobile menu after click
+    if (location.pathname === '/') {
+      const element = document.getElementById(id);
+      element?.scrollIntoView({ behavior: 'smooth' });
+      setIsOpen(false);
+    } else {
+      setIsOpen(false);
+      navigate(`/#${id}`);
     }
   };
 

@@ -7,7 +7,7 @@ import Machines from '../components/Machines';
 const PlasticMolding = () => {
   return (
     <div>
-      <div className='' style={{ marginTop: '120px' }}>
+      <div className='' style={{ marginTop: '100px' }}>
         <HeroPlasticMolding title1={'Comprehensive Plastic Injection'} title2={'Moulding Solutions'} />
         <BackBtn />
         <div>

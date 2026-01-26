@@ -6,7 +6,7 @@ const imagesData = [
     src: "assets/allied/image2.png",
     alt: "Rubber compression molding",
     title: "Rubber Compression Molding",
-    desc: "Along with plastic injection molding, We also offer Runner Compression Molding to shape runner components, Which can later be integrated with injection-molded plastic component."
+    desc: "Along with plastic injection molding, We also offer Rubber Compression Molding to shape rubber components, Which can later be integrated with injection-molded plastic component."
   },
   {
     id: 2,
