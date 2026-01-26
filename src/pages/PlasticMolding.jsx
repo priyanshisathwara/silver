@@ -30,7 +30,7 @@ const PlasticMolding = () => {
         </div>
         <div className="relative mt-8 md:mt-0">
           <img
-            src="public/assets/hero-plastic-molding.png"
+            src="assets/hero-plastic-molding.png"
             alt="Manufacturing facility"
             className="rounded-lg shadow-2xl w-full object-cover"
           />

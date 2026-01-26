@@ -20,7 +20,7 @@ export default function Navigation() {
     };
   }, [isOpen]);
 
-  const menuItems = ['home', 'about', 'services', 'machines', 'industries', 'contact'];
+  const menuItems = ['home', 'about', 'services', 'industries', 'contact'];
 
   return (
     <nav className="fixed top-0 w-full bg-white shadow-md z-50">

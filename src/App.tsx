@@ -4,11 +4,14 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import PlasticMolding from './pages/PlasticMolding';
 import AlliedServices from './pages/AlliedServices';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="min-h-screen bg-white">
       <Navigation />
+
+      <ScrollToTop />
 
       <Routes>
         <Route path="/" element={<Home />} />
