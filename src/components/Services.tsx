@@ -92,7 +92,7 @@ export default function Services() {
               "
             >
 
-              <img src={service.icon} style={{ height: '250px', width: '100%', borderRadius: '5px' }}></img>
+              <img src={service.icon} style={{ height: '400px', width: '100%', borderRadius: '5px' }}></img>
 
               <h3
                 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4"

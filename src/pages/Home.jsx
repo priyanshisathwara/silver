@@ -20,7 +20,6 @@ function Home() {
       <CoreValues />
       <Stats />
       <Services />
-      <Machines />
       <Industries />
       <WhyChooseUs />
       <Contact />

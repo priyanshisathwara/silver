@@ -1,4 +1,4 @@
-import { Cpu } from 'lucide-react';
+import { Cpu, Download } from 'lucide-react';
 
 export default function Machines() {
   const machines = [
@@ -16,7 +16,7 @@ export default function Machines() {
       className="py-14 sm:py-16 lg:py-20 bg-gray-50"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Heading */}
         <div className="text-center mb-10 sm:mb-14 lg:mb-16">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
@@ -81,18 +81,26 @@ export default function Machines() {
 
         {/* Materials */}
         <div className="mt-10 sm:mt-12 bg-blue-50 border-l-4 border-blue-600 p-4 sm:p-6 rounded-r-lg">
-          <h4 className="font-bold text-gray-900 mb-2 text-base" style={{fontSize: '25px'}}>
-            Materials We Process:
-          </h4>
-          <div 
-          onClick={() => {
-      const link = document.createElement('a');
-      link.href = '/assets/Material Capability Sheet.pdf';
-      link.download = 'Materials-We-Process.pdf';
-      link.click();
-    }}
-    >
-            Download PDF
+          <div className='flex gap-4'>
+            <h4 className="font-bold text-gray-900 mb-2 text-base" style={{ fontSize: '25px' }}>
+              Materials We Process
+            </h4>
+            <div
+              onClick={() => {
+                const link = document.createElement('a');
+                link.href = '/assets/Material Capability Sheet.pdf';
+                link.download = 'Materials-We-Process.pdf';
+                link.click();
+              }}
+            >
+              {/* <p className='flex gap-2 group-hover:bg-blue-600 download-pdf-animation'>Download PDF <Download /></p> */}
+              <p className="flex gap-2 download-pdf-animation group-hover:bg-blue-600">
+                Download PDF
+                <span className="download-icon">
+                  <Download />
+                </span>
+              </p>
+            </div>
           </div>
           <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
             PP, HDPE, LDPE, ABS, Nylon, PC (Polycarbonate), Delrin, FR Materials, and more

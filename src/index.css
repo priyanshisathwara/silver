@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.download-pdf-animation {
+    font-weight: bold;
+}
+
+.download-icon {
+  display: inline-flex;
+  animation: icon-bounce 1.5s ease-in-out infinite;
+}
+
+@keyframes icon-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}

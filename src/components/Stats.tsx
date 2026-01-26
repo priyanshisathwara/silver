@@ -4,17 +4,17 @@ export default function Stats() {
   const stats = [
     { icon: Calendar, value: '30+', label: 'Years Experience' },
     { icon: CheckCircle, value: '75+', label: 'Industrial Projects' },
-    { icon: Settings, value: '6', label: 'High-Capacity Machines' },
+    // { icon: Settings, value: '6', label: 'High-Capacity Machines' },
     { icon: TrendingUp, value: '100%', label: 'Quality Commitment' }
   ];
 
   return (
     <section className="py-14 sm:py-16 lg:py-20 bg-gradient-to-r from-blue-600 to-blue-800 relative overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg')] bg-cover bg-center opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('public/assets/main-gate.png')] bg-cover bg-center opacity-10"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {stats.map((stat, index) => (
             <div key={index} className="text-center text-white">
               {/* Icon */}

@@ -96,14 +96,14 @@ export default function About() {
                 </p>
               </div>
 
-              <div className="text-center p-4 bg-blue-50 rounded-lg">
+              <div className="text-center p-4 bg-blue-50 rounded-lg content-center">
                 <Users className="w-10 h-10 sm:w-12 sm:h-12 text-blue-600 mx-auto mb-2" />
                 <p className="font-semibold text-gray-900 text-sm sm:text-base">
                   Expert Team
                 </p>
               </div>
 
-              <div className="text-center p-4 bg-blue-50 rounded-lg">
+              <div className="text-center p-4 bg-blue-50 rounded-lg content-center">
                 <Briefcase className="w-10 h-10 sm:w-12 sm:h-12 text-blue-600 mx-auto mb-2" />
                 <p className="font-semibold text-gray-900 text-sm sm:text-base">
                   75+ Projects
@@ -115,7 +115,7 @@ export default function About() {
           {/* Right Image */}
           <div className="relative mt-8 md:mt-0">
             <img
-              src="https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg"
+              src="public/assets/hero-plastic-molding.png"
               alt="Manufacturing facility"
               className="rounded-lg shadow-2xl w-full object-cover"
             />
