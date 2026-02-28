@@ -9,7 +9,7 @@ export default function Stats() {
   ];
 
   return (
-    <section className="py-14 sm:py-16 lg:py-20 bg-gradient-to-r from-blue-600 to-blue-800 relative overflow-hidden">
+    <section className="py-14 sm:py-16 lg:py-20 bg-gradient-to-r from-blue-600 to-blue-800 relative overflow-hidden scroll-mt-24 md:scroll-mt-28">
       {/* Background Image */}
       <div className="absolute inset-0 bg-[url('/assets/main-gate.png')] bg-cover bg-center opacity-10"></div>
 

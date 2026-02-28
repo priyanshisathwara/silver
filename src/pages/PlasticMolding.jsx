@@ -11,7 +11,7 @@ const PlasticMolding = () => {
         <HeroPlasticMolding title1={'Comprehensive Plastic Injection'} title2={'Moulding Solutions'} />
         {/* <BackBtn /> */}
         <div>
-          <b className='flex justify-center' style={{ color: '#1515b8', fontSize: '30px' }} >About Injection Moulding</b>
+          <b className='flex justify-center mt-4' style={{ color: '#1515b8', fontSize: '30px' }} >About Injection Moulding</b>
           <p style={{ margin: '0px 20px', textAlign: 'center', fontSize: '25px', padding: '20px' }}>
             Injection molding is Silver Profile core service. For 30+ years, we have manufactured millions of high-quality precision products via injection molding. These products cater to both small businesses and multinational corporations alike.
             We have the capability to mold around 650 tonnes of plastic with efficiency and effectiveness.</p>

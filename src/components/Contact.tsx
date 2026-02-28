@@ -26,12 +26,12 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-14 md:py-20 bg-gradient-to-br from-gray-50 to-white"
+      className="py-14 md:py-6 bg-gradient-to-br from-gray-50 to-white scroll-mt-24 md:scroll-mt-28"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Heading */}
-        <div className="text-center mb-12 md:mb-16">
+        <div className="text-center mb-4 md:mb-6">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             Contact Us
           </h2>
@@ -76,7 +76,7 @@ export default function Contact() {
                   href="tel:+918000985055"
                   className="text-blue-600 hover:underline text-sm sm:text-base"
                 >
-                  +91 8000985055
+                  +91 80009-85055
                 </a>
               </div>
             </div>

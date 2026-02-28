@@ -5,15 +5,15 @@ import { Link } from 'react-router-dom';
 export default function Services() {
   const services = [
     {
-      icon: 'assets/plastic-molding.png',
+      icon: 'assets/plastic-molding.webp',
       title: 'Plastic Molding',
       description:
         'High-precision plastic injection molding services with capacities ranging from 125 to 650 tons for diverse product requirements.',
       url: '/plastic-molding'
     },
     {
-      icon: 'assets/allied-service.png',
-      title: 'Allied Service',
+      icon: 'assets/allied-service.webp',
+      title: 'Allied Services',
       description:
         'We offer comprehensive end to end solutions beyond just injection molding.',
       url: '/allied-service'
@@ -57,7 +57,7 @@ export default function Services() {
   ];
 
   return (
-    <section id="services" className="py-14 sm:py-16 lg:py-20 bg-white" style={{ cursor: 'pointer' }}>
+    <section id="services" className="py-14 sm:py-16 lg:py-20 bg-white scroll-mt-24 md:scroll-mt-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Heading */}

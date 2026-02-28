@@ -2,9 +2,9 @@ import { Award, Users, Briefcase } from "lucide-react";
 
 export default function About() {
   return (
-    <section id="about" className="py-14 md:py-20 bg-white">
+    <section id="about" className="py-14 md:py-20 bg-white scroll-mt-24 md:scroll-mt-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Heading */}
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -54,7 +54,7 @@ export default function About() {
                 href="tel:+918000985055"
                 className="block text-blue-600 hover:text-blue-700 transition text-sm sm:text-base"
               >
-                📞 +91 8000985055
+                📞 +91 80009-85055
               </a>
 
               <p className="text-sm sm:text-base">
@@ -115,7 +115,7 @@ export default function About() {
           {/* Right Image */}
           <div className="relative mt-8 md:mt-0">
             <img
-              src="assets/30yearexp.png"
+              src="assets/30yearexp.webp"
               alt="Manufacturing facility"
               className="rounded-lg shadow-2xl w-full object-cover"
             />

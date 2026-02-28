@@ -29,7 +29,7 @@ export default function CoreValues() {
   ];
 
   return (
-    <section className="py-14 md:py-20 bg-white">
+    <section className="py-14 md:py-20 bg-white scroll-mt-24 md:scroll-mt-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Heading */}
@@ -48,10 +48,10 @@ export default function CoreValues() {
           {values.map((value, index) => (
             <div
               key={index}
-              className="text-center group transition duration-300 hover:-translate-y-2"
+              className="text-center group transition duration-300"
             >
-              <div className="bg-blue-50 w-20 h-20 sm:w-24 sm:h-24 rounded-full flex items-center justify-center mx-auto mb-5 group-hover:bg-blue-600 transition">
-                <value.icon className="w-10 h-10 sm:w-12 sm:h-12 text-blue-600 group-hover:text-white transition" />
+              <div className="bg-blue-50 w-20 h-20 sm:w-24 sm:h-24 rounded-full flex items-center justify-center mx-auto mb-5 transition">
+                <value.icon className="w-10 h-10 sm:w-12 sm:h-12 text-blue-600 transition" />
               </div>
 
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">

@@ -47,8 +47,8 @@ const imagesData = [
 
 export default function ImageGrid() {
   return (
-    <section className="image-grid-section">
-      <div className="image-grid-container">
+    <section className="image-grid-section scroll-mt-24 md:scroll-mt-28">
+      <div className="image-grid-container bg-gradient-to-br from-gray-50 to-blue-50 p-2">
         {imagesData.map((image) => (
           <div className="image-card" key={image.id} style={{padding: '20px'}}>
             <img src={image.src} alt={image.alt} style={{height: '300px', marginBottom: '20px'}} />

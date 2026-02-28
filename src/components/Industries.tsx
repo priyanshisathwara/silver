@@ -28,7 +28,7 @@ export default function Industries() {
   return (
     <section
       id="industries"
-      className="py-14 sm:py-16 lg:py-20 bg-gradient-to-br from-gray-50 to-blue-50"
+      className="py-14 sm:py-16 lg:py-20 bg-gradient-to-br from-gray-50 to-blue-50  scroll-mt-24 md:scroll-mt-28"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

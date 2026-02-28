@@ -88,7 +88,7 @@ export default function Machines() {
             <div
               onClick={() => {
                 const link = document.createElement('a');
-                link.href = '/assets/Material Capability Sheet.pdf';
+                link.href = '/assets/Material Capability Sheet1.pdf';
                 link.download = 'Materials-We-Process.pdf';
                 link.click();
               }}

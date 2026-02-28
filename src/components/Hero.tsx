@@ -10,7 +10,7 @@ export default function Hero() {
       id="home"
       className="
         relative
-        min-h-[100svh]
+        min-h-[80svh]
         flex items-center justify-center
         bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900
       "
@@ -21,14 +21,14 @@ export default function Hero() {
       <div
         className="
           absolute inset-0
-          bg-[url('/assets/hero-background.png')]
+          bg-[url('/assets/hero-bg-final.webp')]
           bg-cover bg-center
           opacity-20
         "
       ></div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto" style={{marginTop: '100px'}}>
         
         <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold text-white mb-5 leading-tight">
           Trusted Plastic Manufacturing
