@@ -52,14 +52,14 @@ export default function Industries() {
                 bg-white
                 p-4 sm:p-6
                 rounded-xl
-                shadow-md hover:shadow-xl
                 transition
                 text-center
                 group
-                hover:-translate-y-2
                 duration-300
-              "
-            >
+                "
+                >
+              {/* shadow-md hover:shadow-xl */}
+              {/* hover:-translate-y-2 */}
               <div
                 className="
                   bg-blue-50
@@ -67,17 +67,18 @@ export default function Industries() {
                   rounded-full
                   flex items-center justify-center
                   mx-auto mb-3 sm:mb-4
-                  group-hover:bg-blue-600
                   transition
-                "
-              >
+                  "
+                  >
+                {/* group-hover:bg-blue-600 */}
                 <industry.icon
                   className="
                     w-7 h-7 sm:w-8 sm:h-8 lg:w-10 lg:h-10
-                    text-blue-600 group-hover:text-white
+                    text-blue-600
                     transition
-                  "
-                />
+                    "
+                    />
+                {/* group-hover:text-white */}
               </div>
 
               <h3 className="font-semibold text-gray-900 text-xs sm:text-sm lg:text-base leading-snug">

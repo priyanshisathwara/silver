@@ -46,8 +46,9 @@ export default function WhyChooseUs() {
               key={index}
               className="flex flex-col sm:flex-row gap-4 sm:gap-6 p-6 sm:p-8 
                          bg-gradient-to-br from-blue-50 to-white rounded-xl 
-                         shadow-lg hover:shadow-xl transition border-l-4 border-blue-600"
+                         transition border-l-4 border-blue-600"
             >
+              {/* shadow-lg hover:shadow-xl  */}
               <div className="flex-shrink-0">
                 <div className="bg-blue-600 w-12 h-12 sm:w-16 sm:h-16 rounded-lg flex items-center justify-center">
                   <reason.icon className="w-6 h-6 sm:w-8 sm:h-8 text-white" />

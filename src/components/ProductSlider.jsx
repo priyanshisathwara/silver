@@ -2,19 +2,15 @@ import { useRef, useState, useEffect } from "react";
 import "./ProductSlider.css";
 
 const products = [
-  { image: "assets/products/product1.jpeg" },
-  { image: "assets/products/product2.jpeg" },
-  { image: "assets/products/product3.jpeg" },
-  { image: "assets/products/product4.jpeg" },
-  { image: "assets/products/product5.jpeg" },
-  { image: "assets/products/product6.jpeg" },
-  { image: "assets/products/product7.jpeg" },
-  { image: "assets/products/product8.jpeg" },
-  { image: "assets/products/product9.jpeg" },
-  { image: "assets/products/product10.jpeg" },
-  { image: "assets/products/product11.jpeg" },
-  { image: "assets/products/product12.jpeg" },
-  { image: "assets/products/product13.jpeg" },
+  { image: "assets/products/product1.png" },
+  { image: "assets/products/product2.png" },
+  { image: "assets/products/product3.png" },
+  { image: "assets/products/product4.png" },
+  { image: "assets/products/product5.png" },
+  { image: "assets/products/product6.png" },
+  { image: "assets/products/product7.png" },
+  { image: "assets/products/product8.png" },
+  { image: "assets/products/product9.png" },
 ];
 
 const ProductSlider = () => {

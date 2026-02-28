@@ -32,18 +32,17 @@ export default function Navigation() {
   return (
     <nav className="fixed top-0 w-full bg-white shadow-md z-50">
       <div className='hidden lg:flex gap-4 justify-end gap-4 text-white' style={{ paddingTop:'5px', paddingBottom:'5px', backgroundColor: '#0000c9', paddingRight: '20px' }}>
-        <div> <a className='flex gap-1' href='https://maps.app.goo.gl/fPqSLPqtF3UzfP4C7'> <MapPin className='' /> Kalol, gujarat, 382722 </a></div>
+        <div> <a className='flex gap-1'> <MapPin className='' /> Kalol, Gujarat, 382722 </a></div>
         < br />
         <p className="flex gap-2 text-white">
           <Mail />
           <a
-            href="mailto:silvercool1994@gmail.com"
             className="text-white"
           >
             silvercool1994@gmail.com
           </a>
         </p>
-        <div> <a className='flex gap-1' href="tel:+918000985055"> <Phone className='' />+91 8000985055</a></div>
+        <div> <a className='flex gap-1'> <Phone className='' />+91 8000985055</a></div>
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 sm:h-20">

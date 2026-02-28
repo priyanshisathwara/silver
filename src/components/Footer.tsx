@@ -53,7 +53,7 @@ export default function Footer() {
           </div>
 
           {/* SERVICES */}
-          <div>
+          {/* <div>
             <h4 className="font-bold text-lg mb-4">Services</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>Injection Molding</li>
@@ -63,7 +63,7 @@ export default function Footer() {
               <li>Transportation Support</li>
               <li>Raw Material Supply</li>
             </ul>
-          </div>
+          </div> */}
 
           {/* CONTACT */}
           <div>
@@ -86,26 +86,20 @@ export default function Footer() {
               </div>
               <div className="flex items-center justify-center sm:justify-start gap-3">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <a href="tel:+918000985055" className="text-gray-400 hover:text-white transition">
-                  +91 8000985055
+                <a className="text-gray-400 hover:text-white transition">
+                 +91 80009-85055
                 </a>
               </div>
               <div className="flex items-center justify-center sm:justify-start gap-3">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <a href="tel:+919714390395" className="text-gray-400 hover:text-white transition">
-                  +91 9714390395
+                <a className="text-gray-400 hover:text-white transition">
+                  +91 99092-88726
                 </a>
               </div>
               <div className="flex items-center justify-center sm:justify-start gap-3">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <a href="tel:+919909288726" className="text-gray-400 hover:text-white transition">
-                  +91 9909288726
-                </a>
-              </div>
-              <div className="flex items-center justify-center sm:justify-start gap-3">
-                <Phone className="w-5 h-5 text-blue-400" />
-                <a href="tel:+919825283817" className="text-gray-400 hover:text-white transition">
-                  +91 9825283817
+                <a className="text-gray-400 hover:text-white transition">
+                  +91 97143-90395
                 </a>
               </div>
             </div>

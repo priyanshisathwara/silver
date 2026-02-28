@@ -6,8 +6,8 @@ export default function VisionMission() {
     <section className="vision-mission-section relative overflow-hidden py-14 sm:py-16 lg:py-20">
       
       {/* 🔥 Background animation blobs */}
-      <div className="vm-blob vm-blob-1"></div>
-      <div className="vm-blob vm-blob-2"></div>
+      {/* <div className="vm-blob vm-blob-1"></div> */}
+      {/* <div className="vm-blob vm-blob-2"></div> */}
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">

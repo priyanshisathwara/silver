@@ -115,7 +115,7 @@ export default function About() {
           {/* Right Image */}
           <div className="relative mt-8 md:mt-0">
             <img
-              src="assets/hero-plastic-molding.png"
+              src="assets/30yearexp.png"
               alt="Manufacturing facility"
               className="rounded-lg shadow-2xl w-full object-cover"
             />

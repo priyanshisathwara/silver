@@ -6,6 +6,7 @@ import Machines from '../components/Machines';
 import Services from '../components/Services';
 import Industries from '../components/Industries';
 import WhyChooseUs from '../components/WhyChooseUs';
+import Certificate from '../components/Certificate';
 import Stats from '../components/Stats';
 import Contact from '../components/Contact';
 import Navigation from '../components/Navigation';
@@ -38,6 +39,7 @@ function Home() {
       <Services />
       <Industries />
       <WhyChooseUs />
+      <Certificate />
       <Contact />
     </div>
   );

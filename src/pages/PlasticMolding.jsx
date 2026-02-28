@@ -9,7 +9,7 @@ const PlasticMolding = () => {
     <div>
       <div className='' style={{ marginTop: '100px' }}>
         <HeroPlasticMolding title1={'Comprehensive Plastic Injection'} title2={'Moulding Solutions'} />
-        <BackBtn />
+        {/* <BackBtn /> */}
         <div>
           <b className='flex justify-center' style={{ color: '#1515b8', fontSize: '30px' }} >About Injection Moulding</b>
           <p style={{ margin: '0px 20px', textAlign: 'center', fontSize: '25px', padding: '20px' }}>
