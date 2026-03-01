@@ -39,7 +39,6 @@ export default function Machines() {
                 shadow-lg
                 overflow-hidden
                 transition
-                hover:shadow-2xl
                 group
               "
             >
@@ -60,7 +59,6 @@ export default function Machines() {
                     w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20
                     text-white
                     relative z-10
-                    group-hover:scale-110
                     transition
                   "
                 />

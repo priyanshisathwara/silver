@@ -10,7 +10,8 @@ export default function Hero() {
       id="home"
       className="
         relative
-        min-h-[80svh]
+        h-[80svh]
+        min-h-[700px]
         flex items-center justify-center
         bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900
       "
