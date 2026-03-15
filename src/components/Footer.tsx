@@ -90,6 +90,12 @@ export default function Footer() {
                  +91 80009-85055
                 </a>
               </div>
+              <div className="flex items-center justify-center sm:justify-start gap-3">
+                <Phone className="w-5 h-5 text-blue-400" />
+                <a className="text-gray-400 hover:text-white transition">
+                 +91 99092-88726
+                </a>
+              </div>
             </div>
           </div>
 
